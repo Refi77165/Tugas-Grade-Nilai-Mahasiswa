@@ -1,7 +1,7 @@
 print ("\n   SILAHKAN INPUT DATA ANDA \n=============================\n")
 Nama = input("Masukan Nama Anda       :")
 NIM = input("Masukan NIM Anda        :")
-UAS =float(input ("Masukan nilai Uas Anda  :"))
+UAS = float(input ("Masukan nilai Uas Anda  :"))
 UTS = float(input ("Masukan Nilai UTS Anda  :"))
 TGS = float(input ("Masukan Nilai Tugas Anda:"))
 ABS = float(input ("Masukan Jumlah Kehadiran:"))
@@ -14,8 +14,8 @@ nABS = ABS * 0.1
 na = nUAS+nUTS+nTGS+nABS
 
 print ("\n NILAI AKHIR MAHASISWA RAHARJA \n=============================\n")
-print ("NAMA : %s"%Nama)
-print ("NIM : %s"%NIM)
+print ("NAMA  : %s"%Nama)
+print ("NIM   : %s"%NIM)
 print ("Nilai : %d"%na)
 print ("Grade :")
 
